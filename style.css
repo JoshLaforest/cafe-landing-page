@@ -5,8 +5,12 @@ body {
     font-size: 18px;
     padding: 0;
     margin: 0;
-    line-height: 2em;
+    line-height: 1.5em;
     color: black;
+}
+
+.logo {
+    border-radius: 0;
 }
 
 .hero {
@@ -53,6 +57,11 @@ h2 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 2em;
+    color: #335B50;
+}
+
+img {
+    border-radius: 20px;
 }
 
 button {
@@ -98,5 +107,11 @@ a:hover {
 }
 
 .card {
+    display: inline-block;
     max-width: 25%;
+}
+
+.card-text {
+    width: 0;
+  min-width: 100%;
 }
