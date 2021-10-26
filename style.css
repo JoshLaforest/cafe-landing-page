@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    padding: 0 6em;
+    background: linear-gradient(to top, #1b1b1b59, #0b0c0c60),url(https://images.pexels.com/photos/6205626/pexels-photo-6205626.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    margin-bottom: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+    padding: 2em 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: .5em;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: inherit;
+    border-radius: 10px;
+    background-color: #F5C5BE; 
+    border: none;
+}
