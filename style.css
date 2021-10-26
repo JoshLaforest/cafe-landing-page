@@ -49,6 +49,12 @@ h1 {
     line-height: 0em;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 2em;
+}
+
 button {
     padding: 15px 30px;
     font-size: inherit;
@@ -77,4 +83,20 @@ a {
 a:hover {
     color: #F5C5BE;
     border-bottom: solid 2px #F5C5BE;
+}
+
+.most-popular-container {
+    display: flex;
+    flex-direction: column;
+    padding: 6em;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 25%;
 }
