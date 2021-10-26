@@ -56,4 +56,24 @@ button {
     border: none;
     margin-top: 1em;
     box-shadow: 0 6px #d49393;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 100ms;
+}
+
+button:hover {
+    transform: translateY(2px);
+    box-shadow: 0 4px #d49393;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 2px transparent;
+    padding: 1em;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 100ms; 
+}
+
+a:hover {
+    color: #F5C5BE;
+    border-bottom: solid 2px #F5C5BE;
 }
