@@ -16,7 +16,7 @@ body {
 .hero {
     height: 100vh;
     padding: 0 6em;
-    background: linear-gradient(to top, #1b1b1b85, #0b0c0c8e),url(https://images.pexels.com/photos/6205626/pexels-photo-6205626.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed; 
+    background: linear-gradient(to top, #1b1b1b85, #0b0c0c8e),url(images/hero-img.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -114,4 +114,17 @@ a:hover {
 .card-text {
     width: 0;
   min-width: 100%;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.5em;
+    background-color: #F5C5BE;
 }
