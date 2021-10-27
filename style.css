@@ -12,12 +12,14 @@ body {
 .logo {
     border-radius: 0;
     box-shadow: none;
+    padding: none;
+    border: none;
 }
 
 .hero {
     height: 100vh;
     padding: 0 6em;
-    background: linear-gradient(to top, #1b1b1b85, #0b0c0c8e),url(images/hero-img.jpg) no-repeat center center fixed; 
+    background: linear-gradient(to top, #1b1b1b85, #0b0c0c8e),url(/cafe-landing-page/images/hero-img.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,6 +72,12 @@ h3 {
 img {
     border-radius: 20px;
     box-shadow: 5px 5px #335B50;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 100ms;
+}
+
+img:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 0 0;
 }
 
 button {
@@ -89,7 +97,7 @@ button:hover {
     cursor: pointer;
 }
 
-a {
+.nav-link {
     text-decoration: none;
     color: white;
     border-bottom: solid 2px transparent;
@@ -97,10 +105,15 @@ a {
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) 100ms; 
 }
 
-a:hover {
-    color: #F5C5BE;
+.nav-link:hover {
     border-bottom: solid 2px #F5C5BE;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .most-popular-container {
     display: flex;
@@ -129,11 +142,11 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding: 4em 2em;
     font-size: 60px;
     font-weight: 700;
     line-height: 1.5em;
-    background: linear-gradient(to top, #1b1b1b85, #0b0c0c8e),url(images/quote-bg.jpg) no-repeat top center fixed; 
+    background: linear-gradient(to top, #1b1b1b85, #0b0c0c8e),url(/cafe-landing-page/images/quote-bg.jpg) no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -148,7 +161,7 @@ a:hover {
 }
 
 .offer-section {
-    padding: 6em;
+    padding: 10em 6em;
 }
 
 .offer-card {
@@ -159,4 +172,11 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.footer {
+    background-color: #335B50;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
 }
