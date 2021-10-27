@@ -61,6 +61,12 @@ h2 {
     color: #335B50;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: -.5em;
+}
+
 img {
     border-radius: 20px;
     box-shadow: 5px 5px #335B50;
@@ -139,4 +145,18 @@ a:hover {
     font-style: italic;
     font-size: 40px;
     margin-top: -1em;
+}
+
+.offer-section {
+    padding: 6em;
+}
+
+.offer-card {
+    background-color: #335B50;
+    color: white;
+    padding: 3em 4em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
